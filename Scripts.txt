@@ -1,0 +1,20 @@
+create database estudo;
+commit;
+
+use estudo
+create table cadastro
+( id int not null PRIMARY KEY AUTO_INCREMENT, 
+nome varchar (30), 
+nascimento date, 
+sexo ENUM ("M","F"), 
+rg varchar (20), 
+cpf varchar (20) );
+commit;
+
+insert INTO cadastro VALUES 
+(DEFAULT,'Paulo Almeida', '1987-04-13', 'M', '2001009001548', '000.000.000-01'),
+(DEFAULT, 'José Silva', '1978-01-01', 'M', '000000001', '123.456.789-01'),
+(DEFAULT,'Veronica Teixeira', '1971-01-23', 'F', '2032948458', '098.765.543-21'), 
+(DEFAULT,'Flavia Janaina', '1985-05-22', 'F', '20000094895', '032.876.987-87');
+commit;
+
