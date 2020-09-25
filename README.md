@@ -5,8 +5,8 @@ Projeto criado com o intuito de exercitar meus conhecimentos iniciais em Banco d
 
 Dentro desse projeto pretendo englobar os principais conceitos (aprendizagem inicial) na linguagem Java utilizando MySQL com backend.
 
-Uso de versionamento Git
+Uso de versionamento Git.
 
-Aplicação de boas prática de Desenvolvimento (Code clear)
+Aplicação de boas práticas de Desenvolvimento (Code clear).
 
 Espero com essa Aplicação demonstrativa deixar claro o meu conhecimento para futuras oportunidades profissionais. 
